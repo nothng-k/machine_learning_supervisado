@@ -1,0 +1,102 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2636
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;\f1\fmodern\fcharset0 Courier;\f2\fnil\fcharset0 HelveticaNeue-Bold;
+\f3\fnil\fcharset0 HelveticaNeue-Medium;\f4\fnil\fcharset0 HelveticaNeue-Italic;\f5\fnil\fcharset0 HelveticaNeue-BoldItalic;
+}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red39\green106\blue180;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0\c87059;\cssrgb\c18824\c49804\c75686;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid1\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid2\'02\'01.;}{\levelnumbers\'01;}\fi-360\li1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{hyphen\}}{\leveltext\leveltemplateid3\'01\uc0\u8259 ;}{\levelnumbers;}\fi-360\li2160\lin2160 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid101\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listlevel\levelnfc3\levelnfcn3\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{upper-alpha\}.}{\leveltext\leveltemplateid102\'02\'01.;}{\levelnumbers\'01;}\fi-360\li1440\lin1440 }{\listname ;}\listid2}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww23600\viewh15800\viewkind0
+\deftab720
+\pard\pardeftab720\sa140\partightenfactor0
+
+\f0\fs28 \cf2 \expnd0\expndtw0\kerning0
+\
+\pard\pardeftab720\qr\partightenfactor0
+
+\f1\fs26 \cf3 \
+\pard\pardeftab720\sa232\partightenfactor0
+
+\f2\b\fs58 \cf2 Data Lending club
+\f3\b0 \
+\pard\pardeftab720\qr\partightenfactor0
+
+\f1\fs26 \cf3 \
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f0\fs28 \cf2 Lending Club es una de las empresas P2P m\'e1s grandes, publica regularmente conjuntos de datos anonimizados de sus clientes que contienen caracter\'edsticas de los pr\'e9stamos y los prestatarios. Esta informaci\'f3n se puede utilizar para clasificar si un prestatario incumplir\'e1 o no con su pr\'e9stamo.\
+Por ejemplo, los bancos suelen tener datos informativos para crear modelos que ayuden a decidir a qui\'e9n conceder o denegar un pr\'e9stamo. Es un problema de clasificaci\'f3n supervisado.\
+\pard\pardeftab720\sa387\partightenfactor0
+
+\f2\b\fs48\fsmilli24192 \cf2 Definici\'f3n del problema:
+\f3\b0 \
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f0\fs28 \cf2 Se desea predecir, antes de conceder un pr\'e9stamo a una persona, la probabilidad de que no se devuelva completamente. Por tanto, todas las variables del dataset que se empleen para el modelo, deben poderse utilizar en el momento de su llamada. Para ello, se emplear\'e1 un algoritmo de clasificaci\'f3n supervisado.\
+El fichero 
+\f4\i \'93Data_Dictionary.xls\'94
+\f0\i0  contiene toda las variables y sus descripci\'f3n a utilizar en el modelo de clasificaci\'f3n.\
+El conjunto de datos se encuentra en el fichero 
+\f4\i \'93pd_data_initial_preprocessing.csv\'94\
+
+\f0\i0 La variable objetivo a predecir, que define si un cliente pagar\'e1 una hipoteca o no es 
+\f5\i\b loan_status
+\f0\i0\b0 .\
+\
+\pard\pardeftab720\sa387\partightenfactor0
+
+\f2\b\fs48\fsmilli24192 \cf2 Puntos a resolver en la pr\'e1ctica:\
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f0\b0\fs28 \cf2 Se pide realizar los siguientes puntos para resolver el problema de clasificaci\'f3n.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa280\partightenfactor0
+\ls1\ilvl0\cf2 \kerning1\expnd0\expndtw0 {\listtext	1.	}Hacer un peque\'f1o an\'e1lisis descriptivo de los datos. Un an\'e1lisis sencillo que incluya simplemente: (0,5 pts)\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa280\partightenfactor0
+\ls1\ilvl1\cf2 {\listtext	\uc0\u8259 	}Cantidad de valores nulos.\
+{\listtext	\uc0\u8259 	}tipo de variables (cat, float, etc.)\
+{\listtext	\uc0\u8259 	}En la variable objetivo, distribuci\'f3n de sus valores.\
+{\listtext	\uc0\u8259 	}Matriz de correlaci\'f3n en variables continuas.\
+\pard\tx220\tx720\tx1133\pardeftab720\li720\fi-720\sa280\partightenfactor0
+\ls1\ilvl0\cf2 {\listtext	2.	}Tratar los valores missing tanto en las variables continuas como discretas de forma correcta. Recordad que si existen muchos valores missing no es adecuado eliminar dichas filas. Como gu\'eda, recordad que los valores missing: (0,5 pts)\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa280\partightenfactor0
+\ls1\ilvl1\cf2 {\listtext	\uc0\u8259 	}En variables continuas se puede  sustituir por  la media o mediana, o por un valor muy distinto al resto de cantidades, que refleje que de alg\'fan modo que es un valor missing.\
+{\listtext	\uc0\u8259 	}En variables discretas se pueden sustituir por la moda o una clase nueva que indique que no tienen valor, p.e. \'93SIN VALOR\'94.\
+{\listtext	\uc0\u8259 	}Puede ser interesante, estudiar y evaluar algunos de los m\'e9todos de la librer\'eda sklearn.impute, como por ejemplo sklearn.impute.KNNimpute, que realiza una imputaci\'f3n mediante una regresi\'f3n con KNN.\
+\pard\tx220\tx720\tx1133\pardeftab720\li720\fi-720\sa280\partightenfactor0
+\ls1\ilvl0\cf2 {\listtext	3.	}Transformar las variables continuas, si fuera necesario, y las categ\'f3ricas correctamente. (0,5 pts)\
+{\listtext	4.	}Partir el conjunto de datos en un subconjunto de entrenamiento y otro de test. Recordad, que si la variable objetivo est\'e1 desbalanceada, es fundamental, realizar una partici\'f3n que conserve las proporciones originales en cada subconjunto. (0,5pt)\
+{\listtext	5.	}Vamos ha evaluar diferentes algoritmos de clasificaci\'f3n, para los cuales necesitaremos hacer los siguientes pasos:\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sa280\partightenfactor0
+\ls1\ilvl1\cf2 {\listtext	1.	}Realizar alg\'fan tipo de transformaci\'f3n como escalado o normalizaci\'f3n, si el m\'e9todo lo necesita.\
+{\listtext	2.	}Entrenar el modelo con el conjunto de datos de entrenamiento.\
+{\listtext	3.	}Mostrar c\'f3mo de bueno ha sido el entrenamiento.\
+{\listtext	4.	}Evaluar el modelo con el conjunto de datos de test. Para ellos se pedir\'e1n las siguiente m\'e9tricas:\
+\pard\tx1660\tx2160\pardeftab720\li2160\fi-2160\sa280\partightenfactor0
+\ls1\ilvl2\cf2 {\listtext	\uc0\u8259 	}Accuracy\
+{\listtext	\uc0\u8259 	}Precision\
+{\listtext	\uc0\u8259 	}Recall\
+{\listtext	\uc0\u8259 	}Confusion Matrix\
+{\listtext	\uc0\u8259 	}F-SCORE\
+{\listtext	\uc0\u8259 	}Curva ROC\
+{\listtext	\uc0\u8259 	}Area bajo la curva.\
+\pard\tx566\tx1133\tx1700\pardeftab720\sa280\partightenfactor0
+\cf2 \expnd0\expndtw0\kerning0
+\
+	  Todos estos pasos ser\'e1n necesarios evaluarlos para cada uno de los siguientes algoritmos:\
+\pard\tx940\tx1440\tx1700\pardeftab720\li1440\fi-1440\sa280\partightenfactor0
+\ls2\ilvl1\cf2 {\listtext	A.	}Regresi\'f3n log\'edstica (1 pt)\
+\ls2\ilvl1\kerning1\expnd0\expndtw0 {\listtext	B.	}K-NN (1pt)\
+{\listtext	C.	}Arbol de decisi\'f3n simple (1pt)\
+{\listtext	D.	}Bagging Classifier (1pt)\
+{\listtext	E.	}Random Forest (1pt)\
+{\listtext	F.	}GradientBoost (1pt)\
+{\listtext	G.	}XGBoost. (1pt)\
+\pard\tx566\tx1133\tx1700\pardeftab720\sa280\partightenfactor0
+\cf2 \expnd0\expndtw0\kerning0
+6.-  Cual de todas las m\'e9tricas crees que es la m\'e1s conveniente?. Ordena todos los m\'e9todos de mejor a peor seg\'fan dichas m\'e9tricas. (0,5pt)\
+7.-  En esta pr\'e1ctica no hemos abordado todav\'eda la importancia de hacer una correcta preselecci\'f3n y transformaci\'f3n de variables antes de entrenar un modelo. Sin embargo , los ensambladores nos pueden dar una buena pista, de que variables elegir a la hora de entrenar un modelo de clasificaci\'f3n o regresi\'f3n.  \'bfC\'f3mo medir\'edas que importancia tiene cada variable a la hora de clasificar correctamente la variable objetivo? Haciendo uso de alguno de los m\'e9todos propuestos, Muestra una gr\'e1fica que presente de forma ordenada la importancia que tiene cada variable en la clasificaci\'f3n (0,5pt)\
+\pard\pardeftab720\sa280\partightenfactor0
+\cf2 \
+\
+}
